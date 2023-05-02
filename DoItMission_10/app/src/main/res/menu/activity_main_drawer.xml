@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/baseline_looks_one_24"
+            android:title="메뉴 1" />
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/baseline_looks_two_24"
+            android:title="메뉴 2" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/baseline_looks_3_24"
+            android:title="메뉴 3" />
+    </group>
+</menu>
